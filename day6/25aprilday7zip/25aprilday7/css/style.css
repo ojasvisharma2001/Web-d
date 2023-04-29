@@ -1,0 +1,163 @@
+/* defining the global variables */
+:root{
+    --primaryColor: #577D86;
+    --backgroundColor: #B9EDDD;
+    --titlefont:'Sacramento',cursive;
+    --myTitleFont:'Dancing Script', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+}
+
+/* main css */
+
+body{
+    margin: 0px;
+    color: var(--primaryColor);
+    font-family: var(--fontDefaultTextFont);
+    line-height: 25px;
+
+}
+
+.h2 {
+    font-family: var(--fontDefaultTextFont);
+    margin: 0;
+    font-size: 2.25em;  /* 1em = 16px */
+    padding-bottom: 20px;
+}
+
+hr{
+    border: dotted 5px var(--backgroundColor);
+    border-bottom: none;
+    margin: 120px auto 120px auto;
+    width: 5%;
+}
+
+.top-section{
+    background-color: var(--backgroundColor);
+    
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.heading {
+    font-family: var(--myTitleFont);
+    margin: 0;
+}
+
+.top-cloud{
+    position: absolute;
+    margin-block-start: -100px;
+    margin-left: 350px;
+    width: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -200px;
+    width: 100px;
+}
+.mountain{
+    width: 600px;
+}
+img{
+    margin-bottom:-5px;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 50px auto; /*TRBL*/
+}
+.profile-pic{
+    border-radius: 100%;
+    width: 200px;
+
+    
+    /*
+    margin: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;*/
+}
+
+.middle-section{
+    text-align: center;
+    margin: 100px auto 100px auto ;
+    width: 50%;
+    
+}
+
+.intro{
+    width: 50%;
+    margin: auto;
+    line-height: 25px;
+
+}
+
+.skill-image{
+    width: 150px;
+}
+
+.left{
+    float: left;
+    margin-right: 100px;
+}
+
+.right{
+float: right;
+margin-left: 100px;
+}
+
+.skills{
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.my-skills{
+    margin: 0px auto 100px auto;
+}
+
+.contact{
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.contact:hover{
+    color: var(--backgroundColor);
+}
+
+.bottom-section{
+    background-color: var(--backgroundColor);
+    text-align: center;
+    padding: 80px 0px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.social{
+    margin: auto 50px;
+}
+
+.social:hover{
+    color: var(--backgroundColor);
+}
+
+.social-container{
+    margin-bottom: 50px;
+}
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
